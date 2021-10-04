@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edit1"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:hint="첫번째숫자"
+        android:textColor="#FF018786"
+        android:layout_weight="1"
+        android:inputType="number"
+        ></EditText>
+    </TableRow>
+
+    <TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edit2"
+        android:padding="15dp"
+        android:hint="두번째숫자"
+        android:textColor="#FF018786"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:inputType="number"
+        ></EditText>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/BtnNum0"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#6ADFD9"
+            android:text="0"
+            android:textColor="@color/black"></Button>
+
+        <Button
+            android:id="@+id/BtnNum1"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#6ADFD9"
+            android:text="1"
+            android:textColor="@color/black"></Button>
+
+        <Button
+
+            android:id="@+id/BtnNum2"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#6ADFD9"
+            android:text="2"
+            android:textColor="@color/black"></Button>
+
+        <Button
+            android:id="@+id/BtnNum3"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#6ADFD9"
+            android:text="3"
+            android:textColor="@color/black"></Button>
+
+        <Button
+            android:id="@+id/BtnNum4"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#6ADFD9"
+            android:text="4"
+            android:textColor="@color/black"></Button>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/BtnNum5"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="5"
+            android:backgroundTint="#6ADFD9"
+            android:textColor="@color/black"></Button>
+        <Button
+            android:id="@+id/BtnNum6"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="6"
+            android:backgroundTint="#6ADFD9"
+            android:textColor="@color/black"></Button>
+        <Button
+
+            android:id="@+id/BtnNum7"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="7"
+            android:backgroundTint="#6ADFD9"
+            android:textColor="@color/black"></Button>
+        <Button
+            android:id="@+id/BtnNum8"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="8"
+            android:backgroundTint="#6ADFD9"
+            android:textColor="@color/black"></Button>
+        <Button
+            android:id="@+id/BtnNum9"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="9"
+            android:backgroundTint="#6ADFD9"
+            android:textColor="@color/black"></Button>
+    </TableRow>
+
+
+
+    <TableRow>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnAdd"
+        android:backgroundTint="#6ADFD9"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_span="5"
+        android:text="더하기" />
+    </TableRow>
+
+    <TableRow>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnSub"
+        android:textColor="@color/black"
+        android:backgroundTint="#6ADFD9"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_span="5"
+        android:text="뺴기" />
+        </TableRow>
+
+<TableRow>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnMul"
+        android:textColor="@color/black"
+        android:backgroundTint="#6ADFD9"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_span="5"
+        android:text="곱하기" />
+    </TableRow>
+
+<TableRow>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnDiv"
+        android:textColor="@color/black"
+        android:backgroundTint="#6ADFD9"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_span="5"
+        android:text="나누기" />
+</TableRow>
+
+
+<TableRow>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnRem"
+        android:textColor="@color/black"
+        android:backgroundTint="#6ADFD9"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_span="5"
+        android:text="나머지" />
+</TableRow>
+
+    <TableRow>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/TextResult"
+        android:layout_height="wrap_content"
+        android:text="계산 결과:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_weight="1"
+        android:layout_span="5"
+        ></TextView>
+</TableRow>
+
+</TableLayout>

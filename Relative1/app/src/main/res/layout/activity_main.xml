@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+    android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="기준"
+
+        android:id="@+id/base"
+        android:layout_margin="10dp"
+        ></Button>
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="1번"-->
+<!--        android:layout_alignTop="@+id/base"-->
+<!--        android:layout_toLeftOf="@+id/base"-->
+<!--&gt;</Button>-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="2번"-->
+<!--        android:layout_alignBaseline="@+id/base"-->
+<!--        android:layout_toLeftOf="@+id/base"-->
+<!--        ></Button>-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="3번"-->
+<!--        android:layout_alignBottom="@+id/base"-->
+<!--        android:layout_toLeftOf="@+id/base"-->
+<!--        ></Button>-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="4번"-->
+<!--        android:layout_above="@+id/base"-->
+<!--        android:layout_alignLeft="@+id/base"-->
+<!--        ></Button>-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="5번"-->
+<!--        android:layout_alignRight="@+id/base"-->
+<!--        android:layout_below="@+id/base"-->
+<!--        ></Button>-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6번"
+        android:layout_above="@+id/base"
+        android:layout_alignLeft="@+id/base"
+        android:id="@+id/a7th"
+        ></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7번"
+        android:layout_above="@+id/a7th"
+        android:layout_alignLeft="@+id/a7th"
+        android:id="@+id/a8th"
+        ></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8번"
+        android:layout_above="@+id/a8th"
+        android:layout_toLeftOf="@+id/a8th"
+        ></Button>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="전화번호"
+        android:textSize="30dp"
+        android:id="@+id/text"
+        android:layout_margin="10dp"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="000 - 0000 - 0000"
+        android:layout_toRightOf="@+id/text"
+        android:layout_alignBaseline="@+id/text"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:id="@+id/edit"
+        ></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력"
+        android:layout_toLeftOf="@+id/btn1"
+        android:layout_alignTop="@+id/btn1"
+
+        ></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추ㅣ소"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edit"
+        android:id="@+id/btn1"
+        android:layout_margin="10dp"
+
+        ></Button>
+
+
+
+
+</RelativeLayout>

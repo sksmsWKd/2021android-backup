@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextViewTest</string>
+    <string name="string_01">안녕하세요</string>
+</resources>

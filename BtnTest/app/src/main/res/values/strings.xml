@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BtnTest</string>
+    <string name="btn1">학교 홈페이지</string>
+    <string name="btn2">전화걸기</string>
+    <string name="btn3">갤러리열기</string>
+    <string name="btn4">끝내기</string>
+</resources>
