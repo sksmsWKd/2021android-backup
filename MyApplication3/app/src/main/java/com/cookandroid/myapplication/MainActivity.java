@@ -1,4 +1,4 @@
-    package com.cookandroid.calculator;
+package com.cookandroid.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,10 +10,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.cookandroid.myapplication.R;
+
 public class MainActivity extends AppCompatActivity {
 
     EditText edit1,edit2;
-    Button btn1,btn2,btn3,btn4,btn5;
+    Button btn1,btn2,btn3,btn4;
     TextView resultView;
     Double num1 ;
     Double num2  ;
@@ -38,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btn2 = (Button) findViewById(R.id.BtnSub);
         btn3 = (Button) findViewById(R.id.BtnMul);
         btn4 = (Button) findViewById(R.id.BtnDiv);
-        btn5 = (Button) findViewById(R.id.BtnRem);
+
 
         resultView = (TextView) findViewById(R.id.TextResult);
 
@@ -85,29 +87,29 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-     btn1.setOnClickListener(new View.OnClickListener() {
+        btn1.setOnClickListener(new View.OnClickListener() {
 
-         @Override
-         public void onClick(View view) {
+            @Override
+            public void onClick(View view) {
 
 
-             try {
-                 num1 = Double.parseDouble(edit1.getText().toString().trim());
-                 num2 = Double.parseDouble(edit2.getText().toString().trim());
-             } catch (NumberFormatException e) {
-                 e.printStackTrace();
-             }
+                try {
+                    num1 = Double.parseDouble(edit1.getText().toString().trim());
+                    num2 = Double.parseDouble(edit2.getText().toString().trim());
+                } catch (NumberFormatException e) {
+                    e.printStackTrace();
+                }
 
-             if (num1==null||num2==null) {
-                 Toast.makeText(getApplicationContext(),
-                         "값을 입력하세요.",Toast.LENGTH_SHORT).show();
-             } else {
+                if (num1==null||num2==null) {
+                    Toast.makeText(getApplicationContext(),
+                            "값을 입력하세요.",Toast.LENGTH_SHORT).show();
+                } else {
 
-            result = num1+num2;
-            resultView.setText("계산 결과 : " + result);
-         }
-     }
-     });
+                    result = num1+num2;
+                    resultView.setText("계산 결과 : " + result);
+                }
+            }
+        });
 
 //     btn2.setOnTouchListener(new View.OnTouchListener(){
 //         @Override
@@ -212,30 +214,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                try {
-                    num1 = Double.parseDouble(edit1.getText().toString().trim());
-                    num2 = Double.parseDouble(edit2.getText().toString().trim());
-                } catch (NumberFormatException e) {
-                    e.printStackTrace();
-                }
-                if (num1==null||num2==null) {
-                    Toast.makeText(getApplicationContext(),
-                            "값을 입력하세요.",Toast.LENGTH_SHORT).show();
-                } else if (num2==0) {
-                    Toast.makeText(getApplicationContext(),
-                            "0으로 나눌수없습니다.", Toast.LENGTH_SHORT).show();
-                } else {
-
-
-                    result = num1 % num2;
-                    resultView.setText("계산 결과 : " + result);
-                }
-            }
-        });
+//        btn5.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                try {
+//                    num1 = Double.parseDouble(edit1.getText().toString().trim());
+//                    num2 = Double.parseDouble(edit2.getText().toString().trim());
+//                } catch (NumberFormatException e) {
+//                    e.printStackTrace();
+//                }
+//                if (num1==null||num2==null) {
+//                    Toast.makeText(getApplicationContext(),
+//                            "값을 입력하세요.",Toast.LENGTH_SHORT).show();
+//                } else if (num2==0) {
+//                    Toast.makeText(getApplicationContext(),
+//                            "0으로 나눌수없습니다.", Toast.LENGTH_SHORT).show();
+//                } else {
+//
+//
+//                    result = num1 % num2;
+//                    resultView.setText("계산 결과 : " + result);
+//                }
+//            }
+//        });
 
 
     }

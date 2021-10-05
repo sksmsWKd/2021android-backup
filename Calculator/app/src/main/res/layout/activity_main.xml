@@ -205,6 +205,6 @@
         android:layout_weight="1"
         android:layout_span="5"
         ></TextView>
-</TableRow>
+    </TableRow>
 
 </TableLayout>
