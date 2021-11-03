@@ -99,10 +99,12 @@ public class MainActivity extends AppCompatActivity {
             menu.add(0,3,0,"배경파랑");
         }
         if(v==btn2){
+            menu.setHeaderTitle("버튼조작");
             menu.add(0,4,0,"45도회전");
             menu.add(0,5,0,"2배확대");
         }
         if(v==btn3){
+
             menu.add(0,6,0,"원래대로");
         }
 
