@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
         final String[] movie = { "토이스토리4", "호빗3", "제이슨 본", "반지의 제왕 3","정직한 후보",
                 "나쁜 녀석들", "겨울왕국 2", "알라딘", "극한직업", "스파이더맨" };
 
-        final Integer[] posterID = { R.drawable.mov21, R.drawable.mov22,
-                R.drawable.mov23, R.drawable.mov24, R.drawable.mov25,
-                R.drawable.mov26, R.drawable.mov27, R.drawable.mov28,
-                R.drawable.mov29, R.drawable.mov30 };
+        final Integer[] posterID = { R.drawable.mov01, R.drawable.mov02,
+                R.drawable.mov03, R.drawable.mov04, R.drawable.mov05,
+                R.drawable.mov06, R.drawable.mov07, R.drawable.mov08,
+                R.drawable.mov09, R.drawable.mov10 };
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner1);
 
@@ -34,12 +34,20 @@ public class MainActivity extends AppCompatActivity {
 
         //★ 입력하기 , spinner.setOnItemSelectedListener() 사용
         // 리스너 내부 코드
-       /*      ImageView ivPoster = (ImageView) findViewById(R.id.ivPoster);
-                ivPoster.setScaleType(ImageView.ScaleType.FIT_CENTER);
-                ivPoster.setPadding(5, 5, 5, 5);
-                ivPoster.setImageResource(posterID[i]);
-        */
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                final int pos = position;
 
+                ImageView imgView = (ImageView) findViewById(R.id.ivPoster);
+                imgView.setScaleType(ImageView.ScaleType.FIT_CENTER);
+                imgView.setImageResource(posterID[pos]);
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                //
+            }
+        });
 
     }
 }
