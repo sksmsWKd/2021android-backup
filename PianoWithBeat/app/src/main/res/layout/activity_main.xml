@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/asdasd"
-    android:orientation="vertical"
+
+
     >
 
 
@@ -14,12 +15,12 @@
 
     <Button
         android:id="@+id/buttonG7"
-
         android:layout_width="65dp"
         android:layout_height="35dp"
         android:text="asdasdasd"
         tools:layout_x="124dp"
-        tools:layout_y="317dp"></Button>
+        tools:layout_y="317dp"
+        ></Button>
 
     <Button
         android:id="@+id/buttonF"

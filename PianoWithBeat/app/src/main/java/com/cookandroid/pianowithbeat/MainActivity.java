@@ -71,8 +71,8 @@ Button buttonC5,
 
 
         super.onCreate(savedInstanceState);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.activity_main);
         buttonF= (Button) findViewById(R.id.buttonF);
         buttonC= (Button) findViewById(R.id.buttonC);
