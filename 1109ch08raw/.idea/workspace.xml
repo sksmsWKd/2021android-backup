@@ -27,7 +27,64 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09bc5e6-7231-409b-b6ba-df94389fffba" name="Default Changelist" comment="" />
+    <list default="true" id="b09bc5e6-7231-409b-b6ba-df94389fffba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BtnTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/drawable/asdasd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/a1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/a2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/a3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/a4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/a5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/a6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/b1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/b2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/b3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/b4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/b5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/b6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/c1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/c2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/c3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/c4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/c5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/d1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/d2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/d3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/d4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/d5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/d6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/e1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/e2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/e3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/e4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/e5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/e6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/f1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/f2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/f3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/f4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/f5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/f6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/g2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/g3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/g4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/g5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/raw/g6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProgressAndSeekbar/app/src/main/res/drawable/battery_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProgressAndSeekbar/app/src/main/res/drawable/battery_100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProgressAndSeekbar/app/src/main/res/drawable/battery_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProgressAndSeekbar/app/src/main/res/drawable/battery_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProgressAndSeekbar/app/src/main/res/drawable/battery_80.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/java/com/cookandroid/pianowithbeat/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/java/com/cookandroid/pianowithbeat/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PianoWithBeat/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +108,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutoTextView" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -63,9 +120,7 @@
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="1109ch08raw.app" />
@@ -120,9 +175,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -148,15 +201,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="537" y="266" key="AndroidCreateResourceDirectoryDialog" timestamp="1636424486024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="537" y="266" key="AndroidCreateResourceDirectoryDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1636424486024" />
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1636424881496">
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1639548916107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="216" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1636424881496" />
+    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639548916107" />
   </component>
 </project>
