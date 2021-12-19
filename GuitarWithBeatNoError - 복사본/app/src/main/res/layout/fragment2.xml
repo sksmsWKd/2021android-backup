@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ssaurel.audiorecorder.MainActivity"
+        >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="209dp"
+            android:layout_height="252dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo_ssaurel" />
+
+        <Button
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_marginTop="-238dp"
+            android:backgroundTint="#00ff00"
+            android:text="Record"
+            android:fontFamily="@font/font"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/record"
+            android:layout_marginStart="-99dp"
+            android:layout_marginLeft="-99dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/record"
+            android:layout_toRightOf="@+id/record"
+            android:text="Stop"
+            android:backgroundTint="#00ff00"
+            android:fontFamily="@font/font"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stop"
+            android:layout_marginStart="-88dp"
+            android:layout_marginLeft="-88dp"
+            android:layout_marginTop="33dp"
+            android:layout_toEndOf="@+id/stop"
+            android:backgroundTint="#00ff00"
+            android:layout_toRightOf="@+id/stop"
+            android:fontFamily="@font/font"
+            android:text="Play"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</FrameLayout>
